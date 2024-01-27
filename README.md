@@ -19,9 +19,9 @@ File format: JSON list. Each line is a json object of
 ```
 
 ### Usage:
-#### Download, Extract, and dump wikitables in CR language
+#### Download, Extract, and dump wikitables in EN language
 ```shell
-python wtabhtml.py dump -l cr
+python wtabhtml.py download -l en
 ```
 
 #### Download, Extract, dump wikitables, and generate table images in CR language 

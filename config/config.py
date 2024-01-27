@@ -1,7 +1,7 @@
 from core.utils import io_worker as iw
 
-DIR_ROOT = "/Users/phucnguyen/git/wtabhtml"
-DUMPS_VERSION_WP_HTML = "20220301"
+DIR_ROOT = "/home/eric/wtabhtml"
+DUMPS_VERSION_WP_HTML = "20240120"
 
 # Configuration
 ENCODING = "utf-8"

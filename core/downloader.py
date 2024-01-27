@@ -30,7 +30,7 @@ def download_file(download_url):
     return downloaded_file
 
 
-def download_wikipedia_html_dump(wikipedia_version=cf.DUMPS_VERSION_WP_HTML, lang="ja"):
+def download_wikipedia_html_dump(wikipedia_version=cf.DUMPS_VERSION_WP_HTML, lang="en"):
     # Download Wikipedia dumps
     url = cf.URL_WP_HTML.format(wikipedia_version=wikipedia_version, lang=lang)
     downloaded_file = download_file(url)

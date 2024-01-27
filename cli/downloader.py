@@ -19,7 +19,7 @@ def cli_downloader():
 @click.option(
     "-l",
     "--language",
-    default="ja",
+    default="en",
     show_default=True,
     help="Download the Wikipedia dump of language edition",
 )
